@@ -19,6 +19,10 @@ def main():
         # Draw the player
         player.draw(screen)
         # Update the player
+        player.update(dt)
+        # Draw the player again
+        player.draw(screen)
+        # Update the display
         pygame.display.flip()
 
 
